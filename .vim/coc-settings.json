@@ -1,12 +1,21 @@
 {
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "tsserver.enable": false,
   "deno.enable": true,
   "deno.lint": true,
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json",
   "coc.source.file.trimSameExts": [],
-  "prettier.disableLanguage": [
+  "prettier.disableLanguages": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact"
   ]
 }
+
