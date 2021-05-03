@@ -75,7 +75,9 @@ export interface Arg {
 export interface App {
   name: string;
   version?: string;
+  authors?: string[];
   description?: string;
+  cmd?: string[];
   subCommands?: App | App[];
   setup?<T = void>(args: Arg[]): Promise<T>;
 }
